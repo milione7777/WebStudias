@@ -1,0 +1,63 @@
+  
+  .regular-customers {
+    color: $colorblack;
+    text-align: center;
+    margin-top: 94px;
+
+    &--font {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 1.08px;
+    }
+  }
+  
+  .customer-logos {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 94px;
+
+    &--margin {
+      margin-top: 50px;
+      margin-bottom: 94px;
+    }
+  }
+  
+  .icon-linkedin-footer {
+    border: 1px;
+  }
+
+  .logo-all {
+    padding: 16px 32px;
+
+    &--center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    &--border {
+      border-radius: 4px;
+      border: 1px solid $colorgray;
+    }
+    }
+  }
+  
+  .logo-all:hover {
+    border-color: $color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .logo-all:hover .logos {
+    fill: $color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .team-item {
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+      margin-left: 30px;
+      flex-basis: calc((100% - 120px) / 4 );
+      background-color: #fff;
+      border-radius: 0px 0px 4px 4px;
+  }
+  

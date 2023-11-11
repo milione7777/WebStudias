@@ -1,0 +1,95 @@
+.section-team {
+    background: #f5f4fa;
+    margin: 0 auto;
+    height: 648px;
+    align-items: center;
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  .icon-network {
+    fill: $colorgray;
+  }
+  
+  .svg-team {
+    border-radius: 50%;
+
+    &--width {
+      width: 44px;
+      height: 44px;
+    }
+
+    &--center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  .svg-team:hover {
+    background-color: $color;
+  }
+  
+  .svg-team:hover .icon-network {
+    fill: #fff;
+  }
+  
+  .team-list {
+    display: flex;
+
+    &--margin {
+      margin-top: 50px;
+      margin-left: -30px;
+    }
+  }
+  
+  .team-name {
+    &--font {
+      color: $colorblack;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.48px;
+    }
+  }
+  
+  .team-pasition {
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    color: $colors;
+    margin-top: 10px;
+  }
+  
+  .card-box {
+    padding-top: 30px;
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+  }
+  
+  .icons-team {
+
+    &--center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &--margin {
+      margin-top: 16px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .network-icons + .network-icons {
+    margin-left: 10px;
+  }
+  
+  .icon-instagram:before {
+    content: "\1f309";
+    font-size: 30px;
+  }
+  
+  .logos {
+    fill: $colorgray;
+  }
+  
+  

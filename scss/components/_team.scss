@@ -19,9 +19,7 @@
     }
 
     &--center {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend %center;
     }
   }
   
@@ -68,9 +66,7 @@
   .icons-team {
 
     &--center {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend %center;
     }
 
     &--margin {

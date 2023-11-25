@@ -115,6 +115,7 @@
   
   .input-footer {
     margin-top: 20px;
+    display: block;
 
     &--width {
       width: 355px;
@@ -123,8 +124,7 @@
     }
 
     &--border {
-      border: 1px solid rgba(255, 255, 255, 0.30);
-      border-radius: 4px;
+      @include border-modal();
     }
 
     &--color {
@@ -133,45 +133,22 @@
     }
 
   }
-  .input-footer {
-    display: block;
-  }
   
   .label-input-footer {
     display: block;
   }
   
   .btn-subscribe {
-
-    &--font {
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 1.87;
-      letter-spacing: 0.96px;
-    }
-
-   &--color {
-    background: $color;
-    color: #fff;
-   }
-
-   &--border {
-    border: none;
-    border-radius: 4px;
-   }
-
-   &--center {
-    text-align: center;
-    display: flex;
-
+    @extend %center;
+    @include button();
+    
     &--position {
-      height: 55px;
       padding: 15px 32px 10px 28px;
       column-gap: 10px;
       margin-top: 36px;
     }
    }
-  }
+  
   
   .footer-input-email::placeholder {
     padding-top: 15px;

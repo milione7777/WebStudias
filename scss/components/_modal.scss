@@ -81,20 +81,14 @@
   }
   
   .input-modal {
-    &--width {
+      @include border-modal();
+
       width: 416px;
       height: 40px;
-    }
 
-    &--border {
-      border-radius: 4px;
-      border: 1px solid rgba(33, 33, 33, 0.2);
-    }
-
-    &--padding {
       padding-left: 35px;
     }
-  }
+
   
  .input-modal:hover {
   border-color: $color;
@@ -154,29 +148,12 @@
   }
   
   .send-btn {
-    display: block;
-    padding: 10px 52px;
-
-    &--font {
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 30px;
-      letter-spacing: 0.96px;
-    }
-
-    &--border {
-      border-radius: 4px;
-      border: none;
-    }
+    @include button();
+    padding: 10px 1000px;
 
     &--margin {
       margin-left: 164px;
       margin-top: 30px;
-    }
-
-    &--color {
-      background: $color;
-      color: #fff;
     }
   }
   

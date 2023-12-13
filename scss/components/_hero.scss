@@ -21,4 +21,5 @@
   
   .button {
    @include button();
+    padding: 10px 24px;
   }

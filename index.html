@@ -22,12 +22,11 @@
 
     <header class="header header--padding">
       <div class="container header-position">
+        <a href="/" class="logo">
+          <span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span>
+        </a>
         <nav class="navigation">
-          <a href="/" class="logo">
-            <span class="logo-web">Web</span
-            ><span class="logo-studio">Studio</span>
-          </a>
-
           <ul class="list">
             <li class="list__item">
               <a
@@ -51,43 +50,49 @@
               >
             </li>
           </ul>
-        </nav>
 
-        <ul class="list-contact list-contact--center">
-          <li class="menu-contact">
-            <a
-              class="header-contact header-contact--font header-contact--color"
-              href="mailto:info@devstudio.com"
-            >
-              <svg width="16" height="12" class="icon">
-                <use href="./sprite/symbol-defs.svg#icon-gmail"></use>
-              </svg>
-              info@devstudio.com</a
-            >
-          </li>
-          <li class="menu-contact">
-            <a
-              class="header-contact header-contact--font header-contact--color"
-              href="tel:+380961111111"
-            >
-              <svg
-                class="icon"
-                width="10"
-                height="16"
-                viewBox="0 0 10 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+          <ul class="list-contact list-contact--center">
+            <li class="menu-contact">
+              <a
+                class="header-contact header-contact--font header-contact--color"
+                href="mailto:info@devstudio.com"
               >
-                <use href="./sprite/symbol-defs.svg#icon-smartphone"></use>
-              </svg>
-              +38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+                <svg width="16" height="12" class="icon">
+                  <use href="./sprite/symbol-defs.svg#icon-gmail"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="menu-contact">
+              <a
+                class="header-contact header-contact--font header-contact--color"
+                href="tel:+380961111111"
+              >
+                <svg
+                  class="icon"
+                  width="10"
+                  height="16"
+                  viewBox="0 0 10 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="./sprite/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="header-button">
+          <svg class="header-burger" width="40px" height="40px">
+            <use href="/sprite/symbol-defs.svg#icon-menu-header"></use>
+          </svg>
+        </button>
       </div>
     </header>
+
+    <!--hero-->
     <main>
-      <!--hero-->
       <section class="hero hero--background">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
@@ -105,8 +110,8 @@
           <h2 class="advantages">Наші особливості</h2>
           <ul class="advantages-list">
             <li class="advantages-item">
-              <svg width="270" height="120">
-                <use href="./sprite/symbol-defs.svg#icon-antena"></use>
+              <svg width="450" height="120">
+                <use href="./sprite/symbol-defs.svg#icon-antenna-mobile"></use>
               </svg>
               <h3 class="advantages-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="advantages-desc">
@@ -115,29 +120,30 @@
               </p>
             </li>
             <li class="advantages-item">
-              <svg width="270" height="120">
-                <use href="./sprite/symbol-defs.svg#icon-cloch"></use>
+              <svg width="450" height="120">
+                <use href="./sprite/symbol-defs.svg#icon-clock-mobile"></use>
               </svg>
               <h3 class="advantages-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="advantages-desc">
                 Завдання організації, особливо рамки i місце навчання кадрів
-                тягне y <br />ceбe.
+                <br />тягне y ceбe.
               </p>
             </li>
             <li class="advantages-item">
-              <svg width="270" height="120">
-                <use href="./sprite/symbol-defs.svg#icon-diagram"></use>
+              <svg width="450" height="120">
+                <use href="./sprite/symbol-defs.svg#icon-desktop-mobile"></use>
               </svg>
               <h3 class="advantages-title">ПЛАНУВАННЯ</h3>
               <p class="advantages-desc">
-                Так само консультація з широким активом значною мірою
-                <br />зумовлює.
+                Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
 
             <li class="advantages-item">
-              <svg width="270" height="120">
-                <use href="./sprite/symbol-defs.svg#icon-astronawt"></use>
+              <svg width="450" height="120">
+                <use
+                  href="./sprite/symbol-defs.svg#icon-astronaut-mobile"
+                ></use>
               </svg>
               <h3 class="advantages-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="advantages-desc">
@@ -149,7 +155,7 @@
         </div>
       </section>
       <!-- Чим ми займаємося -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="section-title section-title--font section-title--center">
             Чим ми займаємося
@@ -183,7 +189,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Наша команда -->
       <section class="section-team">
@@ -191,7 +197,8 @@
           <h2 class="section-title section-teams">Наша команда</h2>
           <ul class="team-list team-list--margin">
             <li class="team-item">
-              <img src="img/igor.jpg" alt="igor" width="270" height="260" />
+              <img src="img/igor-mobile.jpg" alt="igor" width: 450px; height:
+              460px; />
               <div class="card-box">
                 <h3 class="team-name team-name--font">Iгop Дем'яненко</h3>
                 <p class="team-pasition">Product Designer</p>
@@ -246,7 +253,12 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="img/wolga.jpg" alt="olgo" width="270" height="260" />
+              <img
+                src="img/olga-mobile.jpg"
+                alt="olgo"
+                width="450"
+                height="460"
+              />
               <div class="card-box">
                 <h3 class="team-name team-name--font">Ольга Рєпіна</h3>
                 <p class="team-pasition">Frontend Developer</p>
@@ -302,10 +314,10 @@
             </li>
             <li class="team-item">
               <img
-                src="img/mikolai.jpg"
+                src="img/mikola-mobile.jpg"
                 alt="mikola"
-                width="270"
-                height="260"
+                width="450"
+                height="460"
               />
               <div class="card-box">
                 <h3 class="team-name team-name--font">Микола Тарасов</h3>
@@ -361,7 +373,12 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="img/mixa.jpg" alt="mixail" width="270" height="260" />
+              <img
+                src="img/mixa-mobile.jpg"
+                alt="mixail"
+                width="450"
+                height="460"
+              />
               <div class="card-box">
                 <h3 class="team-name team-name--font">Михайло Єрмаков</h3>
                 <p class="team-pasition">UI Designer</p>
@@ -427,15 +444,15 @@
           <ul class="customer-logos customer-logos--margin">
             <li>
               <a href="#" class="logo-all logo-all--center logo-all--border">
-                <svg width="106" height="60" class="logos">
-                  <use href="./sprite/symbol-defs.svg#icon-Logo"></use>
+                <svg width="160" height="62" class="logos">
+                  <use href="./sprite/symbol-defs.svg#icon-logo-mobile-1"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#" class="logo-all logo-all--center logo-all--border">
-                <svg width="106" height="60" class="logos">
-                  <use href="./sprite/symbol-defs.svg#icon-Logo-1"></use>
+                <svg width="200" height="92" class="logos">
+                  <use href="./sprite/symbol-defs.svg#icon-logo-mobile-2"></use>
                 </svg>
               </a>
             </li>

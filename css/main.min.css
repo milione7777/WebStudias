@@ -496,10 +496,9 @@ p {
   fill: #afb1b8;
 }
 .logo-all {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 16px 32px;
+  width: auto;
+  height: auto;
   border-radius: 4px;
   border: 1px solid #afb1b8;
 }
@@ -525,10 +524,8 @@ p {
 .customer-logos {
   display: flex;
   flex-wrap: wrap;
-  -moz-column-gap: 30px;
-  column-gap: 30px;
-  margin-top: 50px;
-  margin-bottom: 94px;
+
+  margin: 0 auto;
 }
 .icon-linkedin-footer {
   border: 1px;
